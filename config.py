@@ -4,7 +4,7 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 6497757690
+OWNER_ID = 6888478102
 
 MSG_EFFECT = 5046509860389126442
 
@@ -13,10 +13,10 @@ SHORT_API = ""
 SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
-SESSION = "yato"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+SESSION = "diablo"
+TOKEN = "8477674355:AAF79F7jiobR6B4lV79gwvHcDGfd6jWEMuM"
+API_ID = "26944587"
+API_HASH = "7261a455f2a6159b8a2fbfecd1a63004"
 WORKERS = 5
 
 DB_URI = "mongodb"
@@ -33,7 +33,7 @@ DB_CHANNEL =    # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [6497757690, 6103092779]
+ADMINS = [7252834931, 7813956229, 5879656694]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = True
