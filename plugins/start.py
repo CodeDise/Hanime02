@@ -55,7 +55,7 @@ async def start_command(client: Client, message: Message):
                 client.LOGGER(__name__, client.name).warning(f"Shortener failed: {e}")
                 return await message.reply("Couldn't generate short link.")
 
-            short_photo = client.messages.get("SHORT_PIC", "")
+            short_photo = client.messages.get("SHORT_PIC", "https://telegra.ph/file/48788261ae8fe52a75450-6deb25995eaba4230a.jpg")
             short_caption = client.messages.get("SHORT_MSG", "")
             tutorial_link = getattr(client, 'tutorial_link', "https://t.me/How_to_Download_otx")
 
@@ -257,7 +257,7 @@ async def start_command(client: Client, message: Message):
         if user_id in client.admins:
             buttons.insert(0, [InlineKeyboardButton("⛩️ ꜱᴇᴛᴛɪɴɢꜱ ⛩️", callback_data="settings")])
 
-        photo = client.messages.get("START_PHOTO", "")
+        photo = client.messages.get("START_PHOTO", "https://telegra.ph/file/60c86ee99686ee503edef-0c2f86c8caa715c8ab.jpg")
         start_caption = client.messages.get('START', 'Welcome, {mention}').format(
             first=message.from_user.first_name,
             last=message.from_user.last_name,
@@ -296,7 +296,7 @@ async def request_command(client: Client, message: Message):
         return
 
     if not is_user_premium: 
-        BUTTON_URL = "https://t.me/hanime_arena/5"
+        BUTTON_URL = "https://t.me/Anime_Mines/10"
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Upgrade to Premium", url=BUTTON_URL)]
         ])
@@ -349,5 +349,5 @@ async def my_plan(client: Client, message: Message):
             "🔸 Plan: Free\n"
             "🔸 Request: Disabled\n\n"
             "🔓 Unlock Premium to get more benefits\n"
-            "Contact: @GetoPro"
+            "Contact: @Diablovolfir0"
         )
