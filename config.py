@@ -14,7 +14,7 @@ SHORT_TUT = "https://t.me/How_to_Download_otx"
 
 # Bot Configuration
 SESSION = "diablo"
-TOKEN = "8477674355:AAF79F7jiobR6B4lV79gwvHcDGfd6jWEMuM"
+TOKEN = "8166090265:AAHULimlPYlosVnlUnac6xgY9J-tPx9wONg"
 API_ID = "26944587"
 API_HASH = "7261a455f2a6159b8a2fbfecd1a63004"
 WORKERS = 5
@@ -24,7 +24,7 @@ DB_NAME = "yato"
 
 FSUBS = [-1002490852825, True, 10] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL = [-1003483464561]   # just put channel id dont add ""
+DB_CHANNEL = [-1003137762356]   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
